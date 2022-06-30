@@ -6,11 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "latest",
     "phone": "^3.1.22",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-hook-form": "^7.33.0"
+    "react-hook-form": "^7.33.0",
+    "react-otp-input": "^2.4.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",

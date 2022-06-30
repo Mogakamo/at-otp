@@ -58,3 +58,7 @@ const Login = () => {
 };
 
 export default Login;
+
+const getServerSideProps = async () => {
+  const data = await fetch("https://api.github.com/users/zeit/repos");
+}

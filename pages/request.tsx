@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const requestOTP = () => {
@@ -6,8 +7,8 @@ const requestOTP = () => {
   useEffect(() =>{
 
   });
-const  submitHandler=()=>{
-
+const  submitHandler=(e: any)=>{
+  e.preventDefault()
 }
 
   return (
@@ -21,7 +22,7 @@ const  submitHandler=()=>{
        </div>
 
        <div className='pt-10'>
-       <button className='bg-green-500 p-5 rounded-md' type = "submit"> Save </button>
+       <button className='bg-green-500 p-5 rounded-md' type = "submit"> <Link href="/verify">Veri</Link> </button>
        </div>
         
         
